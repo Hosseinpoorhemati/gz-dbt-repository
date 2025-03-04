@@ -164,3 +164,12 @@ models:
         description: the cost of preparing the parcel in the distribution centre/warehouse
       - name: ship_cost
         description: shipping cost paid by Greenweez to the carrier/logistics provider
+  
+  - name: finance_days
+    description: daily finance data for dashboarding
+    config: 
+      schema: finance
+      materialized: table
+    
+
+
